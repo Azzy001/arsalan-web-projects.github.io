@@ -1,0 +1,465 @@
+/* Body*/
+
+body, html{
+    background-color: white;
+    margin: 0;
+}
+
+/* Navigation bar ------------------------------------------ */
+
+/* Top navigation bar*/
+
+.nav_bar {
+    background-color: #333;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height:50px;
+    position: fixed;
+}
+
+.nav_bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav_bar li {
+    float: left;
+}
+
+.nav_bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+}
+
+.nav_bar li a:hover {
+    color: #5095E7;
+}
+
+/* Bottom navigation Bar*/
+
+.bottom_nav {
+    background-color: #333;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 45px;
+    position: fixed;
+    overflow: hidden;
+    bottom: 0;
+}
+
+.bottom_nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.bottom_nav li {
+    float: left;
+}
+
+.bottom_nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.bottom_nav img {
+    height: 25px;
+    width: 25px;
+    margin-top: -15%;
+}
+
+/* main.html ----------------------------------------------- */
+
+.mid_cont_main {
+    border: 1px solid black;
+    width: 1198px;
+    height: 450px;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 0px;
+}
+
+.mid_cont_main img {
+    width: 1198px;
+    height: 450px;
+    object-fit: cover;
+}
+
+
+.intro_cont {
+    background-color: white;
+    width: 1198px;
+    height: 200px;
+    margin: 40px auto;
+    overflow-x: hidden;
+    list-style: none;
+}
+
+.intro h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.intro p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.profile_title {
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    background-color: #333;
+    width: 1201px;
+    height: 45px;
+    margin: 0px auto;
+    color: white;
+    line-height: 45px;
+}
+
+.profile_cont {
+    border: 1px solid black;
+    background-color: white;
+    width: 1198px;
+    height: 300px;
+    margin: 0px auto;
+    overflow-x: hidden;
+    list-style: none;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.personal_1 {
+    background-color: white;
+    margin: 15px 15px;
+    height: 120px;
+    width: 1170px;
+}
+
+.personal_1 p {
+    color: black;
+    font-size: 20px;
+}
+
+.personal_2 {
+    background-color: white;
+    margin: 15px 15px;
+    height: 120px;
+    width: 1170px;
+}
+
+.personal_2 p {
+    color: black;
+    font-size: 20px;
+}
+
+/* Monday link */
+
+.form_title {
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    background-color: #333;
+    width: 1201px;
+    height: 45px;
+    margin: 0px auto;
+    color: white;
+    line-height: 45px;
+}
+
+.form_cont {
+    background-color: white;
+    width: 1201px;
+    height: 860px;
+    margin: 0px auto;
+    overflow-x: hidden;
+    list-style: none;
+}
+
+.form_cont iframe {
+    border: 1px solid black;
+    width: 1198px;
+    height: 870px;
+}
+
+/* My Projects --------------------------------------------- */
+
+.top_cont_project {
+    border: 1px solid black;
+    width: 1200px;
+    height: 450px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.top_cont_project img {
+    width: 1200px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.project_title {
+    background-color: #333;
+    width: 1200px;
+    height: 45px;
+    margin: 0px auto;
+    color: white;
+    line-height: 45px;
+}
+
+.project_container {
+    border: 1px solid black;
+    background-color: white;
+    width: 1198px;
+    height: 660px;
+    margin: 0px auto;
+    overflow-x: scroll;
+    list-style: none;
+
+}
+
+.project_container img {
+    width: 1180px;
+    height: 650px;
+    display: inline-block;
+    margin: 30px 0px;
+}
+
+/* skills and experience.html ----------------------------------------- */
+
+.experience_top_cont {
+    border: 1px solid black;
+    width: 1198px;
+    height: 450px;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 0px;
+}
+
+.experience_top_cont img {
+    width: 1198px;
+    height: 450px;
+    object-fit: cover;
+}
+
+/* Experience 1 */
+
+.company_one_title {
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    background-color: #333;
+    width: 1201px;
+    height: 45px;
+    margin: 0px auto;
+    color: white;
+    line-height: 45px;
+}
+
+.experience_one {
+    width: 1198px;
+    height: 500px;
+    margin: 0px auto;
+    overflow-x: hidden;
+    list-style: none;
+    border: 1px solid grey;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.experience_one h2 {
+    color: black;
+    font-size: 18px;
+}
+
+.experience_one h1 {
+    color: black;
+    font-size: 24px;
+}
+
+.experience_one p {
+    color: black;
+    font-size: 18px;
+}
+
+/* Experience 2 */
+
+.company_two_title {
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    background-color: #333;
+    width: 1201px;
+    height: 45px;
+    margin: 0px auto;
+    color: white;
+    line-height: 45px;
+}
+
+.experience_two {
+    width: 1198px;
+    height: 500px;
+    margin: 0px auto;
+    overflow-x: hidden;
+    list-style: none;
+    border: 1px solid grey;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.experience_two h1 {
+    color: black;
+    font-size: 24px;
+}
+
+.experience_two h2 {
+    color: black;
+    font-size: 18px;
+}
+
+.experience_two p {
+    color: black;
+    font-size: 18px;
+}
+
+/* Experience 3 */
+
+.company_three_title {
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    background-color: #333;
+    width: 1201px;
+    height: 45px;
+    margin: 0px auto;
+    color: white;
+    line-height: 45px;
+}
+
+.experience_three {
+    width: 1198px;
+    height: 500px;
+    margin: 0px auto;
+    overflow-x: hidden;
+    list-style: none;
+    border: 1px solid grey;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.experience_three h1 {
+    color: black;
+    font-size: 24px;
+}
+
+.experience_three h2 {
+    color: black;
+    font-size: 18px;
+}
+
+.experience_three p {
+    color: black;
+    font-size: 18px;
+}
+
+/* Experience 4 */
+
+.company_four_title {
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    background-color: #333;
+    width: 1201px;
+    height: 45px;
+    margin: 0px auto;
+    color: white;
+    line-height: 45px;
+}
+
+.experience_four {
+    width: 1198px;
+    height: 500px;
+    margin: 0px auto;
+    overflow-x: hidden;
+    list-style: none;
+    border: 1px solid grey;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.experience_four h1 {
+    color: black;
+    font-size: 24px;
+}
+
+.experience_four h2 {
+    color: black;
+    font-size: 18px;
+}
+
+.experience_four p {
+    color: black;
+    font-size: 18px;
+}
+
+/* skills */
+
+.skills_title {
+    background-color: #333;
+    width: 1200px;
+    height: 45px;
+    margin: 0px auto;
+    color: white;
+    line-height: 45px;
+}
+
+.skills_cont {
+    width: 1198px;
+    height: 840px;
+    margin: 0px auto;
+    overflow-x: hidden;
+    list-style: none;
+}
+
+.skills_cont h1 {
+    font-size: 22px;
+    color: whitesmoke;
+}
+
+.skills_cont p {
+    color: whitesmoke;
+}
+
+/* skills column 1 */
+
+.column_1 {
+    background-color: #333;
+    border-radius: 25px;
+    float: left;
+    margin: 25px 25px;
+    width: 349px;
+    height: 790px;
+}
+
+.column_2 {
+    background-color: #333;
+    border-radius: 25px;
+    float: left;
+    margin: 25px 25px;
+    width: 349px;
+    height: 790px;
+}
+
+.column_3 {
+    background-color: #333;
+    border-radius: 25px;
+    float: right;
+    margin: 25px 25px;
+    width: 349px;
+    height: 790px;
+}
